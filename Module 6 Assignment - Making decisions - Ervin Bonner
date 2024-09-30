@@ -1,0 +1,54 @@
+Start
+        Declarations
+            num areacode
+            num phonenumber
+            num displaybefore
+            num displayafter
+            num displayall
+            num sentinelvalue
+            num bills
+            num textsent
+            num collectdata
+            num details
+            areacode = input("collect three digit areacode from customer")
+            phonenumber = input("collect seven digit phonenumber from customer")
+            displaybefore = input("monthly bill before taxes")
+            displayafter = input("monthly bill after taxes")
+            displayall = input("total data gathered")
+            textsent = total number of messages sent
+            collectdata = input("continues to collect text message data")
+            bills = total monlthy bills 
+Startup()
+    input areacode
+    output "areacode"
+    input phonenumber
+    output "phonenumber"
+    input textsent
+    output "total number of messages sent"
+return
+
+Startup()
+    input collectdata
+    output "sentinelvalue"
+    then input displayall
+return
+
+Startup()
+    input collectdata
+    output "sentinelvalue"
+    if customer has sent over 100 text messages then
+        output "details"
+    endif
+    input collectdata
+if customer whose total bill including taxes exceeds 10
+    output "details"
+return
+
+startup()
+    if "areacode" is enterted then
+    output "bills"
+    endif
+    input collectdata
+    output "textsent"
+return
+stop
